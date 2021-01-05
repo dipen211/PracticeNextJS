@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import styles from './Post.module.css';
+
 export default function post({ id, title, body }: any) {
     return (
         <>
