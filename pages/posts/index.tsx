@@ -1,8 +1,8 @@
 import React from 'react';
-import Post from './components/posts';
+import Post from '../../components/posts';
 import dynamic from 'next/dynamic';
 
-const Header = dynamic(() => import("./components/header"), {
+const Header = dynamic(() => import("../../components/header"), {
   loading: () => <p>Loading...</p>,
   ssr: false,
 });
